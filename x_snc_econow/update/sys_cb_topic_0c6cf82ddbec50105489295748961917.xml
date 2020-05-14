@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="Philanthropy Topics">640c782ddbec5010548929574896194e</category>
+        <connect_queue/>
+        <description>Show open philanthropies</description>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "2f20498d341a42aa9e779bf64338eaaf": {
+      "id": "2f20498d341a42aa9e779bf64338eaaf",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "5ffc76749f5344cd8f62c8da8c353ba0": {
+          "id": "5ffc76749f5344cd8f62c8da8c353ba0",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": "Let me pull up all the approved and live philanthropies for you.",
+            "mode": "simple"
+          }
+        },
+        "a05958bc78fe48b8b4dc85e3339e404b": {
+          "id": "a05958bc78fe48b8b4dc85e3339e404b",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": "Thanks for stopping by!",
+            "mode": "simple"
+          }
+        },
+        "94a09432dd1b478c99b7be7283a95f88": {
+          "id": "94a09432dd1b478c99b7be7283a95f88",
+          "stepType": "RecordOutput",
+          "name": "Show Phil records",
+          "variableId": "",
+          "mode": "script",
+          "tableName": "x_snc_econow_philanthrophy",
+          "fields": [
+            "number"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "type=1"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "ad7072ff43934102ad3e0facb0dca1b3",
+          "edgeType": "Edge",
+          "source": "5ffc76749f5344cd8f62c8da8c353ba0",
+          "target": "94a09432dd1b478c99b7be7283a95f88",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "39e8192b8d624a508ecf092f4dd42cd4",
+          "edgeType": "Edge",
+          "source": "94a09432dd1b478c99b7be7283a95f88",
+          "target": "a05958bc78fe48b8b4dc85e3339e404b",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Show Open Philanthropies,active philanthropies,philanthropy,open philanthropy,open philanthropies,active philanthropy</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Show Open Philanthropies</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 23:55:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0c6cf82ddbec50105489295748961917</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Show Open Philanthropies</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_cb_topic_0c6cf82ddbec50105489295748961917</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-03 00:44:49</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=0c6cf82ddbec50105489295748961917"/>
+</record_update>

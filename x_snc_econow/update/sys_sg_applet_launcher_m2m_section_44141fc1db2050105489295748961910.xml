@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="EcoNow">f3045bc1db205010548929574896193a</applet_launcher>
+        <order>10</order>
+        <section display_value="Philanthrophy">c8141fc1db205010548929574896190f</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-01 21:41:26</sys_created_on>
+        <sys_id>44141fc1db2050105489295748961910</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_44141fc1db2050105489295748961910</sys_update_name>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 08:58:39</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

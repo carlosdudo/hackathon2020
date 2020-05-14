@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Philanthropy initiatives">f105ff99db2c5010548929574896191f</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>2</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-03 16:50:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2494a4fddb689010548929574896196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f105ff99db2c5010548929574896191f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_2494a4fddb689010548929574896196a</sys_update_name>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:50:09</sys_updated_on>
+        <tab display_value="Philanthropy Analytics">a894a4fddb6890105489295748961967</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

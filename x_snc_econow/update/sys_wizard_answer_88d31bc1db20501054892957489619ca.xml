@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Philanthrophy</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Philanthrophy</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">d71f16964f013300e0dcb1d18110c70d</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-01 21:40:21</sys_created_on>
+        <sys_id>88d31bc1db20501054892957489619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Philanthrophy</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_wizard_answer_88d31bc1db20501054892957489619ca</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-01 21:40:21</sys_updated_on>
+        <table/>
+        <target_url>x_snc_econow_philanthrophy.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

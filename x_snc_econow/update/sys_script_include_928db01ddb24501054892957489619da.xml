@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_econow.PhilUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>PhilUtil</name>
+        <script><![CDATA[var PhilUtil = Class.create();
+PhilUtil.prototype = {
+    initialize: function() {},
+
+    checkDeregister: function(user, current) {
+        var index = current.watch_list.indexOf(user); // <-- Not supported in <IE9
+        if (index !== -1) {
+            return true;
+        } else
+            return false;
+    },
+    checkRegister: function(user, current) {
+        var index = current.watch_list.indexOf(user); // <-- Not supported in <IE9
+        if (index !== -1) {
+            return false;
+        } else
+            return true;
+    },
+    buildregisterOption: function(user) {
+        var options = [];
+		var index;
+        
+        var i = 0;
+        var phil = new GlideRecord('x_snc_econow_philanthrophy');
+        phil.addEncodedQuery('stateIN3');
+        phil.query();
+        while (phil.next()) {
+		index= phil.watch_list.toString().indexOf(user); // <-- Not supported in <IE9
+        if (index == -1) 
+		{
+			{
+                options.push({
+                    'value': phil.getValue("sys_id"),
+                    'label': phil.getValue("short_description")
+                });
+            }
+        }
+		}
+        return options;
+    },
+	buildderegisterOption: function(user) {
+        var options = [];
+		var index;
+        
+        var i = 0;
+        var phil = new GlideRecord('x_snc_econow_philanthrophy');
+        phil.addEncodedQuery('stateIN3');
+        phil.query();
+        while (phil.next()) {
+		index= phil.watch_list.toString().indexOf(user); // <-- Not supported in <IE9
+        if (index != -1) 
+		{
+			{
+                options.push({
+                    'value': phil.getValue("sys_id"),
+                    'label': phil.getValue("short_description")
+                });
+            }
+        }
+		}
+        return options;
+    },
+    type: 'PhilUtil'
+
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 05:23:07</sys_created_on>
+        <sys_id>928db01ddb24501054892957489619da</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>PhilUtil</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_script_include_928db01ddb24501054892957489619da</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:23:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

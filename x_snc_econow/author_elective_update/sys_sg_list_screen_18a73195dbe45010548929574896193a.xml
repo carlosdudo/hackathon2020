@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="DELETE">
+        <application_roles/>
+        <available_offline>true</available_offline>
+        <data_item/>
+        <description> My Philanthrophy</description>
+        <dynamic_prefetch_count/>
+        <fetch_type>on_demand</fetch_type>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Handshake">bf045bc1db2050105489295748961939</icon>
+        <item_view/>
+        <name>My Philanthrophys</name>
+        <order/>
+        <parent/>
+        <parent_table/>
+        <roles_override/>
+        <style>regular</style>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 09:36:04</sys_created_on>
+        <sys_id>18a73195dbe45010548929574896193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Philanthrophys</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_sg_list_screen_18a73195dbe45010548929574896193a</sys_update_name>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 09:36:04</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="DELETE" query="documentkey=18a73195dbe45010548929574896193a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EcoNow">1cc25741db2050105489295748961900</application>
+        <file_path/>
+        <instance_id>03a77fbd4f8092407b9b220f0310c739</instance_id>
+        <instance_name>hackathon135</instance_name>
+        <name>sys_sg_list_screen_18a73195dbe45010548929574896193a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen"><sys_sg_list_screen action="INSERT_OR_UPDATE"><application_roles/><available_offline>true</available_offline><data_item/><description> My Philanthrophy</description><dynamic_prefetch_count/><fetch_type>on_demand</fetch_type><hidden>false</hidden><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="icon-Handshake">bf045bc1db2050105489295748961939</icon><item_view/><name>My Philanthrophys</name><order/><parent/><parent_table/><roles_override/><style>regular</style><sys_class_name>sys_sg_list_screen</sys_class_name><sys_created_by>carlos</sys_created_by><sys_created_on>2020-05-02 09:36:04</sys_created_on><sys_id>18a73195dbe45010548929574896193a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Philanthrophys</sys_name><sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package><sys_policy/><sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope><sys_update_name>sys_sg_list_screen_18a73195dbe45010548929574896193a</sys_update_name><sys_updated_by>carlos</sys_updated_by><sys_updated_on>2020-05-02 09:36:04</sys_updated_on></sys_sg_list_screen><sys_translated_text action="delete_multiple" query="documentkey=18a73195dbe45010548929574896193a"/></record_update>]]></payload>
+        <payload_hash>257650865</payload_hash>
+        <record_name>My Philanthrophys</record_name>
+        <reverted_from/>
+        <source>50875785db2050105489295748961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 09:36:04</sys_created_on>
+        <sys_id>dca77595dbe45010548929574896194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d4be2a610000001</sys_recorded_at>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 09:36:04</sys_updated_on>
+        <type>List screen</type>
+        <update_guid>18a7759567e450101721479a18f8d94a</update_guid>
+        <update_guid_history>18a7759567e450101721479a18f8d94a:257650865</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 10:18:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_list_screen">sys_sg_list_screen</sys_db_object>
+        <sys_id>5844c18cebc44e55a4713b2cb3e3c669</sys_id>
+        <sys_metadata>18a73195dbe45010548929574896193a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Philanthrophys</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_scope_delete display_value="">1c313f6434b24ce08451bdaa2f346bd1</sys_scope_delete>
+        <sys_update_name>sys_sg_list_screen_18a73195dbe45010548929574896193a</sys_update_name>
+        <sys_update_version display_value="sys_sg_list_screen_18a73195dbe45010548929574896193a">dca77595dbe45010548929574896194a</sys_update_version>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 10:18:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map">
+    <sys_sg_screen_param_map action="DELETE">
+        <item_parameter display_value="CauseParam">cb0d2f15db2c501054892957489619cd</item_parameter>
+        <screen display_value="Search Philanthropies">3c2eab55db2c501054892957489619bc</screen>
+        <sys_class_name>sys_sg_screen_param_map</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 18:19:55</sys_created_on>
+        <sys_id>b58f6f95db2c501054892957489619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cb0d2f15db2c501054892957489619cd</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_sg_screen_param_map_b58f6f95db2c501054892957489619e3</sys_update_name>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:19:55</sys_updated_on>
+        <ui_parameter display_value="Cause (contains text)">a56feb95db2c50105489295748961986</ui_parameter>
+    </sys_sg_screen_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EcoNow">1cc25741db2050105489295748961900</application>
+        <file_path/>
+        <instance_id>03a77fbd4f8092407b9b220f0310c739</instance_id>
+        <instance_name>hackathon135</instance_name>
+        <name>sys_sg_screen_param_map_b58f6f95db2c501054892957489619e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map"><sys_sg_screen_param_map action="INSERT_OR_UPDATE"><item_parameter display_value="CauseParam">cb0d2f15db2c501054892957489619cd</item_parameter><screen display_value="Search Philanthropies">3c2eab55db2c501054892957489619bc</screen><sys_class_name>sys_sg_screen_param_map</sys_class_name><sys_created_by>carlos</sys_created_by><sys_created_on>2020-05-02 18:19:55</sys_created_on><sys_id>b58f6f95db2c501054892957489619e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cb0d2f15db2c501054892957489619cd</sys_name><sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package><sys_policy/><sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope><sys_update_name>sys_sg_screen_param_map_b58f6f95db2c501054892957489619e3</sys_update_name><sys_updated_by>carlos</sys_updated_by><sys_updated_on>2020-05-02 18:19:55</sys_updated_on><ui_parameter display_value="Cause (contains text)">a56feb95db2c50105489295748961986</ui_parameter></sys_sg_screen_param_map></record_update>]]></payload>
+        <payload_hash>1323813240</payload_hash>
+        <record_name>cb0d2f15db2c501054892957489619cd</record_name>
+        <reverted_from/>
+        <source>50875785db2050105489295748961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 18:19:55</sys_created_on>
+        <sys_id>3d8f6f95db2c501054892957489619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d69dc2530000001</sys_recorded_at>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:19:55</sys_updated_on>
+        <type>Screen parameters mapping</type>
+        <update_guid>758f6f95ec2c501024461435572efbe5</update_guid>
+        <update_guid_history>758f6f95ec2c501024461435572efbe5:1323813240</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 18:28:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_param_map">sys_sg_screen_param_map</sys_db_object>
+        <sys_id>52a8d4900f6442dc99189ec93c3e89e4</sys_id>
+        <sys_metadata>b58f6f95db2c501054892957489619e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cb0d2f15db2c501054892957489619cd</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_scope_delete display_value="">1c313f6434b24ce08451bdaa2f346bd1</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_param_map_b58f6f95db2c501054892957489619e3</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_param_map_b58f6f95db2c501054892957489619e3">3d8f6f95db2c501054892957489619e5</sys_update_version>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:28:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

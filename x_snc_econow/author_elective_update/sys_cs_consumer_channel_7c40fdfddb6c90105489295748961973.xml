@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_consumer_channel">
+    <sys_cs_consumer_channel action="DELETE">
+        <channel_group>TKTR34LCX</channel_group>
+        <channel_info>{"userId":"UKTR34LLF"}</channel_info>
+        <channel_type>slack</channel_type>
+        <channel_user>DKEHADVDG</channel_user>
+        <consumer/>
+        <consumer_account/>
+        <control/>
+        <field_name/>
+        <profile/>
+        <provider_user_id>slack:TKTR34LCX:UKTR34LLF</provider_user_id>
+        <session/>
+        <sys_class_name>sys_cs_consumer_channel</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-03 22:20:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7c40fdfddb6c90105489295748961973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_cs_consumer_channel_7c40fdfddb6c90105489295748961973</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-03 22:20:50</sys_updated_on>
+        <task/>
+        <timezone>GMT-04:00</timezone>
+        <user_id>UKTR34LLF</user_id>
+        <user_name>Arnav</user_name>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <version>1</version>
+    </sys_cs_consumer_channel>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EcoNow">1cc25741db2050105489295748961900</application>
+        <file_path/>
+        <instance_id>03a77fbd4f8092407b9b220f0310c739</instance_id>
+        <instance_name>hackathon135</instance_name>
+        <name>sys_cs_consumer_channel_7c40fdfddb6c90105489295748961973</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_consumer_channel"><sys_cs_consumer_channel action="INSERT_OR_UPDATE"><channel_group>TKTR34LCX</channel_group><channel_info>{"userId":"UKTR34LLF"}</channel_info><channel_type>slack</channel_type><channel_user>DKEHADVDG</channel_user><consumer/><consumer_account/><control/><field_name/><profile/><provider_user_id>slack:TKTR34LCX:UKTR34LLF</provider_user_id><session/><sys_class_name>sys_cs_consumer_channel</sys_class_name><sys_created_by>arnav</sys_created_by><sys_created_on>2020-05-03 22:20:50</sys_created_on><sys_domain>global</sys_domain><sys_id>7c40fdfddb6c90105489295748961973</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package><sys_policy/><sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope><sys_update_name>sys_cs_consumer_channel_7c40fdfddb6c90105489295748961973</sys_update_name><sys_updated_by>arnav</sys_updated_by><sys_updated_on>2020-05-03 22:20:50</sys_updated_on><task/><timezone>GMT-04:00</timezone><user_id>UKTR34LLF</user_id><user_name>Arnav</user_name><vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor><version>1</version></sys_cs_consumer_channel></record_update>]]></payload>
+        <payload_hash>-1653879858</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>50875785db2050105489295748961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-03 22:20:50</sys_created_on>
+        <sys_id>f440fdfddb6c90105489295748961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171dca0b1700000001</sys_recorded_at>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-03 22:20:50</sys_updated_on>
+        <type>Consumer Channel</type>
+        <update_guid>3040fdfd206c90101a203e7fc8925176</update_guid>
+        <update_guid_history>3040fdfd206c90101a203e7fc8925176:-1653879858</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 17:30:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_consumer_channel">sys_cs_consumer_channel</sys_db_object>
+        <sys_id>3909e80f172b42ce8ef5f335256d2021</sys_id>
+        <sys_metadata>7c40fdfddb6c90105489295748961973</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_scope_delete display_value="">1c313f6434b24ce08451bdaa2f346bd1</sys_scope_delete>
+        <sys_update_name>sys_cs_consumer_channel_7c40fdfddb6c90105489295748961973</sys_update_name>
+        <sys_update_version display_value="sys_cs_consumer_channel_7c40fdfddb6c90105489295748961973">f440fdfddb6c90105489295748961976</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 17:30:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

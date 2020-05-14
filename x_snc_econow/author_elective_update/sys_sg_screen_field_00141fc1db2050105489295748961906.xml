@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="DELETE">
+        <data_item_field_name>business_service</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>100</order>
+        <record_id_field/>
+        <screen display_value="Details">04145bc1db205010548929574896193e</screen>
+        <screen_data_item_table>x_snc_econow_philanthrophy</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-01 21:41:26</sys_created_on>
+        <sys_id>00141fc1db2050105489295748961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>business_service</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_sg_screen_field_00141fc1db2050105489295748961906</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-01 21:41:26</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EcoNow">1cc25741db2050105489295748961900</application>
+        <file_path/>
+        <instance_id>03a77fbd4f8092407b9b220f0310c739</instance_id>
+        <instance_name>hackathon135</instance_name>
+        <name>sys_sg_screen_field_00141fc1db2050105489295748961906</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>business_service</data_item_field_name><description_text/><description_text_field/><description_text_type/><field_name/><hidden>false</hidden><order>100</order><record_id_field/><screen display_value="Details">04145bc1db205010548929574896193e</screen><screen_data_item_table>x_snc_econow_philanthrophy</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>arnav</sys_created_by><sys_created_on>2020-05-01 21:41:26</sys_created_on><sys_id>00141fc1db2050105489295748961906</sys_id><sys_mod_count>0</sys_mod_count><sys_name>business_service</sys_name><sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package><sys_policy/><sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope><sys_update_name>sys_sg_screen_field_00141fc1db2050105489295748961906</sys_update_name><sys_updated_by>arnav</sys_updated_by><sys_updated_on>2020-05-01 21:41:26</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+        <payload_hash>-61013349</payload_hash>
+        <record_name>business_service</record_name>
+        <reverted_from/>
+        <source>10c29b81db205010548929574896194b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-01 21:41:28</sys_created_on>
+        <sys_id>ac141fc1db205010548929574896197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d22fede50000001</sys_recorded_at>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-01 21:41:28</sys_updated_on>
+        <type>Screen fields</type>
+        <update_guid>28141fc18420501037e0a99802548d7a</update_guid>
+        <update_guid_history>28141fc18420501037e0a99802548d7a:-61013349</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 12:47:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_field">sys_sg_screen_field</sys_db_object>
+        <sys_id>51c119b6acef4c2891b2fd46ec414a04</sys_id>
+        <sys_metadata>00141fc1db2050105489295748961906</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>business_service</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_scope_delete display_value="">1c313f6434b24ce08451bdaa2f346bd1</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_field_00141fc1db2050105489295748961906</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_field_00141fc1db2050105489295748961906">ac141fc1db205010548929574896197a</sys_update_version>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 12:47:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

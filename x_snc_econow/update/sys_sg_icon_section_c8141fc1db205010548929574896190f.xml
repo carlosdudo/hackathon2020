@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>16474651db285010548929574896191a,7a014a1ddbe4501054892957489619d5,a975cedddbe4501054892957489619ef,ba4402dddbe4501054892957489619b0,3c2eab55db2c501054892957489619bc,6baf2c25dbec501054892957489619f7</applets>
+        <data_item/>
+        <display_feed_count>true</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <orientation>vertical</orientation>
+        <required_roles>x_snc_econow.eco_user,x_snc_econow.eco_admin</required_roles>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-01 21:41:26</sys_created_on>
+        <sys_id>c8141fc1db205010548929574896190f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Philanthrophy</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_sg_icon_section_c8141fc1db205010548929574896190f</sys_update_name>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 23:02:20</sys_updated_on>
+        <table/>
+        <title>Philanthrophy</title>
+        <visible_condition/>
+    </sys_sg_icon_section>
+</record_update>

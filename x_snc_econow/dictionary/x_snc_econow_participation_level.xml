@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Participation Level" max_length="40" name="x_snc_econow_participation_level" sizeclass="3" type="collection">
+        <element label="Badge" mandatory="true" max_length="40" name="badge" type="user_image"/>
+        <element display="true" label="Level Name" mandatory="true" max_length="40" name="level_name" type="string"/>
+        <element label="Points" mandatory="true" max_length="40" name="points" type="integer"/>
+    </element>
+</database>

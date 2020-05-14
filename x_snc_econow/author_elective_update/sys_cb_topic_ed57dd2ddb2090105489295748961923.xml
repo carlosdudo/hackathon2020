@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <category display_value="Philanthropy Topics">640c782ddbec5010548929574896194e</category>
+        <connect_queue/>
+        <description>Register for opportunity</description>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "364770775c4146dbbdfd2491206e8b8d": {
+      "id": "364770775c4146dbbdfd2491206e8b8d",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "fa39e626ec2b42ef92cb6327b53afd58": {
+          "id": "fa39e626ec2b42ef92cb6327b53afd58",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": "starting",
+            "mode": "simple"
+          }
+        },
+        "0bee22cc159d436cb76054e347e527fa": {
+          "id": "0bee22cc159d436cb76054e347e527fa",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5daa41a855b8462ebe42834a7a0883b9": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Show unregistered phil",
+          "prompt": {
+            "value": "These are the open opportunities where you can register",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "Great. You are added to the opportnity",
+            "mode": "simple"
+          },
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "e1b6dde6ec8b4723b6b2e17331f99b37",
+          "id": "5daa41a855b8462ebe42834a7a0883b9",
+          "mode": "external",
+          "script": "(function execute() {\n    /* Code your script logic here. For example, you might want to call an external web service\n       to find the beet local Italian restaurants.  Call a Restaurants Web Service then use the results\n       to populate an options array.\n       \n        var options = [];    \n        options.push({ 'value': 'best_italian_1', 'label': gs.getMessage('Best Italian Restaurant Ever') });\n        options.push({ 'value': 'best_italian_2', 'label': gs.getMessage('Even Better Italian Restaurant') });\n        return options;\n    */\n    \n    var options = [];\n    var result;\n    var pu = new PhilUtil();\n    var phil = new GlideRecord('x_snc_econow_philanthrophy');\n    phil.addEncodedQuery('stateIN3');\n    phil.query();\n    while(phil.next())\n    {\n   //  if(pu.checkRegister(vaInputs.user,phil))\n   gs.info(phil.short_description);  \n     {\n        options.push({ 'value': phil.sys_id, 'label':phil.short_description });        \n     }\n    }\n    options.push({ 'value': phil.sys_id, 'label':phil.getRowCount() }); \n    options.push({ 'value': phil.sys_id, 'label':vaInputs.user.getDisplayValue() }); \n     \n     return pu.buildregisterOption(vaInputs.user);    \n})()\n",
+          "noRecordsResponseMsg": {
+            "value": "hi {{vaInputs.user.first_name}}",
+            "mode": "simple"
+          },
+          "condition": {
+            "value": "(function execute() {\n    /* Code your script logic here. For example, you might want to call an external web service\n       to find the beet local Italian restaurants.  Call a Restaurants Web Service then use the results\n       to populate an options array.\n       \n        var options = [];    \n        options.push({ 'value': 'best_italian_1', 'label': gs.getMessage('Best Italian Restaurant Ever') });\n        options.push({ 'value': 'best_italian_2', 'label': gs.getMessage('Even Better Italian Restaurant') });\n        return options;\n    */\n    \n    var options = [];\n    var result;\n    var pu = new PhilUtil();\n    var phil = new GlideRecord('x_snc_econow_philanthrophy');\n    phil.addEncodedQuery('stateIN3');\n    phil.query();\n    while(phil.next())\n    {\n   //  if(pu.checkRegister(vaInputs.user,phil))\n   gs.info(phil.short_description);  \n     {\n        options.push({ 'value': phil.sys_id, 'label':phil.short_description });        \n     }\n    }\n    options.push({ 'value': phil.sys_id, 'label':phil.getRowCount() }); \n    options.push({ 'value': phil.sys_id, 'label':vaInputs.user.getDisplayValue() }); \n     \n     return pu.buildregisterOption(vaInputs.user);    \n})()\n",
+            "mode": "external_script"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "7cafe7dcb506447ba4da6f4ba2ddd62f",
+          "edgeType": "Edge",
+          "source": "fa39e626ec2b42ef92cb6327b53afd58",
+          "target": "5daa41a855b8462ebe42834a7a0883b9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9b393a836e114c23b74372db4c61dd17",
+          "edgeType": "Edge",
+          "source": "5daa41a855b8462ebe42834a7a0883b9",
+          "target": "0bee22cc159d436cb76054e347e527fa",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "e1b6dde6ec8b4723b6b2e17331f99b37": {
+      "id": "e1b6dde6ec8b4723b6b2e17331f99b37",
+      "name": "show_unregistered_phil",
+      "label": "Show Unregistered Phil",
+      "varType": "reference",
+      "table": "x_snc_econow_philanthrophy",
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Register for opportunity,add me to opporunity,add me philanthropy</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Register for opportunity</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-03 01:53:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ed57dd2ddb2090105489295748961923</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Register for opportunity</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_cb_topic_ed57dd2ddb2090105489295748961923</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:44:42</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=ed57dd2ddb2090105489295748961923"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EcoNow">1cc25741db2050105489295748961900</application>
+        <file_path/>
+        <instance_id>03a77fbd4f8092407b9b220f0310c739</instance_id>
+        <instance_name>hackathon135</instance_name>
+        <name>sys_cb_topic_ed57dd2ddb2090105489295748961923</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><category display_value="Philanthropy Topics">640c782ddbec5010548929574896194e</category><connect_queue/><description>Register for opportunity</description><flexible_conversation_switching>true</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "364770775c4146dbbdfd2491206e8b8d": {
+      "id": "364770775c4146dbbdfd2491206e8b8d",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "fa39e626ec2b42ef92cb6327b53afd58": {
+          "id": "fa39e626ec2b42ef92cb6327b53afd58",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": "starting",
+            "mode": "simple"
+          }
+        },
+        "0bee22cc159d436cb76054e347e527fa": {
+          "id": "0bee22cc159d436cb76054e347e527fa",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5daa41a855b8462ebe42834a7a0883b9": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Show unregistered phil",
+          "prompt": {
+            "value": "These are the open opportunities where you can register",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "Great. You are added to the opportnity",
+            "mode": "simple"
+          },
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "e1b6dde6ec8b4723b6b2e17331f99b37",
+          "id": "5daa41a855b8462ebe42834a7a0883b9",
+          "mode": "external",
+          "script": "(function execute() {\n    /* Code your script logic here. For example, you might want to call an external web service\n       to find the beet local Italian restaurants.  Call a Restaurants Web Service then use the results\n       to populate an options array.\n       \n        var options = [];    \n        options.push({ 'value': 'best_italian_1', 'label': gs.getMessage('Best Italian Restaurant Ever') });\n        options.push({ 'value': 'best_italian_2', 'label': gs.getMessage('Even Better Italian Restaurant') });\n        return options;\n    */\n    \n    var options = [];\n    var result;\n    var pu = new PhilUtil();\n    var phil = new GlideRecord('x_snc_econow_philanthrophy');\n    phil.addEncodedQuery('stateIN3');\n    phil.query();\n    while(phil.next())\n    {\n   //  if(pu.checkRegister(vaInputs.user,phil))\n   gs.info(phil.short_description);  \n     {\n        options.push({ 'value': phil.sys_id, 'label':phil.short_description });        \n     }\n    }\n    options.push({ 'value': phil.sys_id, 'label':phil.getRowCount() }); \n    options.push({ 'value': phil.sys_id, 'label':vaInputs.user.getDisplayValue() }); \n     \n     return pu.buildregisterOption(vaInputs.user);    \n})()\n",
+          "noRecordsResponseMsg": {
+            "value": "hi {{vaInputs.user.first_name}}",
+            "mode": "simple"
+          },
+          "condition": {
+            "value": "(function execute() {\n    /* Code your script logic here. For example, you might want to call an external web service\n       to find the beet local Italian restaurants.  Call a Restaurants Web Service then use the results\n       to populate an options array.\n       \n        var options = [];    \n        options.push({ 'value': 'best_italian_1', 'label': gs.getMessage('Best Italian Restaurant Ever') });\n        options.push({ 'value': 'best_italian_2', 'label': gs.getMessage('Even Better Italian Restaurant') });\n        return options;\n    */\n    \n    var options = [];\n    var result;\n    var pu = new PhilUtil();\n    var phil = new GlideRecord('x_snc_econow_philanthrophy');\n    phil.addEncodedQuery('stateIN3');\n    phil.query();\n    while(phil.next())\n    {\n   //  if(pu.checkRegister(vaInputs.user,phil))\n   gs.info(phil.short_description);  \n     {\n        options.push({ 'value': phil.sys_id, 'label':phil.short_description });        \n     }\n    }\n    options.push({ 'value': phil.sys_id, 'label':phil.getRowCount() }); \n    options.push({ 'value': phil.sys_id, 'label':vaInputs.user.getDisplayValue() }); \n     \n     return pu.buildregisterOption(vaInputs.user);    \n})()\n",
+            "mode": "external_script"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "7cafe7dcb506447ba4da6f4ba2ddd62f",
+          "edgeType": "Edge",
+          "source": "fa39e626ec2b42ef92cb6327b53afd58",
+          "target": "5daa41a855b8462ebe42834a7a0883b9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9b393a836e114c23b74372db4c61dd17",
+          "edgeType": "Edge",
+          "source": "5daa41a855b8462ebe42834a7a0883b9",
+          "target": "0bee22cc159d436cb76054e347e527fa",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "e1b6dde6ec8b4723b6b2e17331f99b37": {
+      "id": "e1b6dde6ec8b4723b6b2e17331f99b37",
+      "name": "show_unregistered_phil",
+      "label": "Show Unregistered Phil",
+      "varType": "reference",
+      "table": "x_snc_econow_philanthrophy",
+      "category": "vaInputs"
+    }
+  }
+}</graph><key_phrases>Register for opportunity,add me to opporunity,add me philanthropy</key_phrases><library>false</library><live_agent>false</live_agent><name>Register for opportunity</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><roles/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>arnav</sys_created_by><sys_created_on>2020-05-03 01:53:27</sys_created_on><sys_domain>global</sys_domain><sys_id>ed57dd2ddb2090105489295748961923</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Register for opportunity</sys_name><sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package><sys_policy/><sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope><sys_update_name>sys_cb_topic_ed57dd2ddb2090105489295748961923</sys_update_name><sys_updated_by>arnav</sys_updated_by><sys_updated_on>2020-05-03 02:44:42</sys_updated_on><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=ed57dd2ddb2090105489295748961923"/></record_update>]]></payload>
+        <payload_hash>1285876961</payload_hash>
+        <record_name>Register for opportunity</record_name>
+        <reverted_from/>
+        <source>50875785db2050105489295748961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-03 02:44:42</sys_created_on>
+        <sys_id>d81361e5db609010548929574896190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d86be9230000001</sys_recorded_at>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:44:42</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>441361e52b60901077a67146ba9e3f0f</update_guid>
+        <update_guid_history>441361e52b60901077a67146ba9e3f0f:1285876961,afae1d65e760901057e6c8248902293e:-961719677,6f2edde1c5609010ca6db63500dce376:-969222589,1dfcdde1e3609010778d6f6f39767771:305287931,b78c9da10d609010138b6388e1308ba5:1348711163,b8da91215c6090107d9b8d9f7007d97c:527756539,039a1d213760901082745bc1d913151c:2055445755,8d8a9da15f6090104e6b1d7b28068e9f:1344113595,2d571d21c660901000a930fef30dc714:-419960148</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-03 13:37:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>16726a31e0aa492081fbd12ee9932624</sys_id>
+        <sys_metadata>ed57dd2ddb2090105489295748961923</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Register for opportunity</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_scope_delete display_value="">1c313f6434b24ce08451bdaa2f346bd1</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_ed57dd2ddb2090105489295748961923</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_ed57dd2ddb2090105489295748961923">d81361e5db609010548929574896190f</sys_update_version>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-03 13:37:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

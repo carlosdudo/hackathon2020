@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description>Register</description>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    var current = new GlideRecord('x_snc_econow_philanthrophy');
+    current.get(input.sys_id);
+    var currentUser = gs.getUser();
+    var watch_list = current.watch_list.toString().split(",");
+    if (watch_list.toString().indexOf(currentUser.getDisplayName()) == -1) {
+        gs.addInfoMessage(gs.getMessage('You are registered!'));
+        watch_list.push(currentUser.getDisplayName());
+        current.watch_list = watch_list.join(",").toString();
+    }
+    current.update();
+})(input);]]></execution_script>
+        <name>Register</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 14:40:55</sys_created_on>
+        <sys_id>776cf215dba850105489295748961934</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Register</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_776cf215dba850105489295748961934</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 17:00:38</sys_updated_on>
+        <table>x_snc_econow_philanthrophy</table>
+        <template>watch_list=^EQ</template>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=776cf215dba850105489295748961934"/>
+</record_update>

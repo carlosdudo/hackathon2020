@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <category display_value="Philanthropy Topics">640c782ddbec5010548929574896194e</category>
+        <connect_queue/>
+        <description>old request</description>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "7571a33f20f542d799675b223bc83e53": {
+      "id": "7571a33f20f542d799675b223bc83e53",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "668a3d97bf874ff4bdfde506634627c2": {
+          "id": "668a3d97bf874ff4bdfde506634627c2",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e232487032e748e791b5210a1b408dae": {
+          "id": "e232487032e748e791b5210a1b408dae",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "4034e11152914f1fab8981fe9da71d94": {
+          "id": "4034e11152914f1fab8981fe9da71d94",
+          "stepType": "Prompt",
+          "name": "short description",
+          "prompt": {
+            "value": "enter short description",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "great",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "04dc25548a8047fdac0e4b68da38fe53"
+        },
+        "ccab2b38f0fc45588b60e6a1b53b83d6": {
+          "id": "ccab2b38f0fc45588b60e6a1b53b83d6",
+          "stepType": "CrudAction",
+          "name": "creat",
+          "template": "short_description={{vaInputs.short_description}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "c27a804f42f14097a4e01c17d7d2b762"
+        }
+      },
+      "edges": [
+        {
+          "id": "6672ab6af8bd433ea57a95deff431cad",
+          "edgeType": "Edge",
+          "source": "668a3d97bf874ff4bdfde506634627c2",
+          "target": "4034e11152914f1fab8981fe9da71d94",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ddd1c940b2794312aaef2e5559b05c7e",
+          "edgeType": "Edge",
+          "source": "4034e11152914f1fab8981fe9da71d94",
+          "target": "ccab2b38f0fc45588b60e6a1b53b83d6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dbc1e131eada41cbb7c375a2d773454f",
+          "edgeType": "Edge",
+          "source": "ccab2b38f0fc45588b60e6a1b53b83d6",
+          "target": "e232487032e748e791b5210a1b408dae",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "04dc25548a8047fdac0e4b68da38fe53": {
+      "id": "04dc25548a8047fdac0e4b68da38fe53",
+      "name": "short_description",
+      "label": "Short Description",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "c27a804f42f14097a4e01c17d7d2b762": {
+      "id": "c27a804f42f14097a4e01c17d7d2b762",
+      "name": "creat",
+      "label": "Creat",
+      "varType": "reference",
+      "table": "x_snc_econow_philanthrophy",
+      "inactive": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>old request</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>old request</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>anureet</sys_created_by>
+        <sys_created_on>2020-05-03 18:12:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fb477cf9db249010afd4ae5a48961975</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>old request</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_cb_topic_fb477cf9db249010afd4ae5a48961975</sys_update_name>
+        <sys_updated_by>anureet</sys_updated_by>
+        <sys_updated_on>2020-05-03 18:17:00</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=fb477cf9db249010afd4ae5a48961975"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EcoNow">1cc25741db2050105489295748961900</application>
+        <file_path/>
+        <instance_id>03a77fbd4f8092407b9b220f0310c739</instance_id>
+        <instance_name>hackathon135</instance_name>
+        <name>sys_cb_topic_fb477cf9db249010afd4ae5a48961975</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><category display_value="Philanthropy Topics">640c782ddbec5010548929574896194e</category><connect_queue/><description>old request</description><flexible_conversation_switching>true</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "7571a33f20f542d799675b223bc83e53": {
+      "id": "7571a33f20f542d799675b223bc83e53",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "668a3d97bf874ff4bdfde506634627c2": {
+          "id": "668a3d97bf874ff4bdfde506634627c2",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e232487032e748e791b5210a1b408dae": {
+          "id": "e232487032e748e791b5210a1b408dae",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "4034e11152914f1fab8981fe9da71d94": {
+          "id": "4034e11152914f1fab8981fe9da71d94",
+          "stepType": "Prompt",
+          "name": "short description",
+          "prompt": {
+            "value": "enter short description",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "great",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "04dc25548a8047fdac0e4b68da38fe53"
+        },
+        "ccab2b38f0fc45588b60e6a1b53b83d6": {
+          "id": "ccab2b38f0fc45588b60e6a1b53b83d6",
+          "stepType": "CrudAction",
+          "name": "creat",
+          "template": "short_description={{vaInputs.short_description}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "c27a804f42f14097a4e01c17d7d2b762"
+        }
+      },
+      "edges": [
+        {
+          "id": "6672ab6af8bd433ea57a95deff431cad",
+          "edgeType": "Edge",
+          "source": "668a3d97bf874ff4bdfde506634627c2",
+          "target": "4034e11152914f1fab8981fe9da71d94",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ddd1c940b2794312aaef2e5559b05c7e",
+          "edgeType": "Edge",
+          "source": "4034e11152914f1fab8981fe9da71d94",
+          "target": "ccab2b38f0fc45588b60e6a1b53b83d6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dbc1e131eada41cbb7c375a2d773454f",
+          "edgeType": "Edge",
+          "source": "ccab2b38f0fc45588b60e6a1b53b83d6",
+          "target": "e232487032e748e791b5210a1b408dae",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "04dc25548a8047fdac0e4b68da38fe53": {
+      "id": "04dc25548a8047fdac0e4b68da38fe53",
+      "name": "short_description",
+      "label": "Short Description",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "c27a804f42f14097a4e01c17d7d2b762": {
+      "id": "c27a804f42f14097a4e01c17d7d2b762",
+      "name": "creat",
+      "label": "Creat",
+      "varType": "reference",
+      "table": "x_snc_econow_philanthrophy",
+      "inactive": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph><key_phrases>old request</key_phrases><library>false</library><live_agent>false</live_agent><name>old request</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><roles/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>anureet</sys_created_by><sys_created_on>2020-05-03 18:12:02</sys_created_on><sys_domain>global</sys_domain><sys_id>fb477cf9db249010afd4ae5a48961975</sys_id><sys_mod_count>3</sys_mod_count><sys_name>old request</sys_name><sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package><sys_policy/><sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope><sys_update_name>sys_cb_topic_fb477cf9db249010afd4ae5a48961975</sys_update_name><sys_updated_by>anureet</sys_updated_by><sys_updated_on>2020-05-03 18:17:00</sys_updated_on><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=fb477cf9db249010afd4ae5a48961975"/></record_update>]]></payload>
+        <payload_hash>824771458</payload_hash>
+        <record_name>old request</record_name>
+        <reverted_from/>
+        <source>10c29b81db205010548929574896194b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>anureet</sys_created_by>
+        <sys_created_on>2020-05-03 18:17:00</sys_created_on>
+        <sys_id>6c787071db649010afd4ae5a48961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171dbc171890000001</sys_recorded_at>
+        <sys_updated_by>anureet</sys_updated_by>
+        <sys_updated_on>2020-05-03 18:17:00</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>e4787071be6490104e614cc8affd2118</update_guid>
+        <update_guid_history>e4787071be6490104e614cc8affd2118:824771458,9138b431bb64901099ab932ffcf57978:-1411075718,bcf7f8318d649010467d2ac75ddddfef:1448464864,cc57b431d6649010a086d9b0b9217171:-580846081</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>anureet</sys_created_by>
+        <sys_created_on>2020-05-03 18:17:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>08f581382d8b42ea80f8ebf681e4ee11</sys_id>
+        <sys_metadata>fb477cf9db249010afd4ae5a48961975</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>old request</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_scope_delete display_value="">1c313f6434b24ce08451bdaa2f346bd1</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_fb477cf9db249010afd4ae5a48961975</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_fb477cf9db249010afd4ae5a48961975">6c787071db649010afd4ae5a48961918</sys_update_version>
+        <sys_updated_by>anureet</sys_updated_by>
+        <sys_updated_on>2020-05-03 18:17:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

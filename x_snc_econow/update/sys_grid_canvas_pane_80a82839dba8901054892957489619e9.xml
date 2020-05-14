@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Philanthropy Analytics">ec25acfddb68901054892957489619ad</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2020-05-03 10:07:52">0ca82cf5dba8901054892957489619ee</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-03 17:07:52</sys_created_on>
+        <sys_id>80a82839dba8901054892957489619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ec25acfddb68901054892957489619ad</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_80a82839dba8901054892957489619e9</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-03 17:07:52</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

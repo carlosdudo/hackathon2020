@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="cause" table="x_snc_econow_philanthrophy" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cause</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Animals</label>
+            <language>en</language>
+            <name>x_snc_econow_philanthrophy</name>
+            <sequence>1</sequence>
+            <sys_created_by>arnav</sys_created_by>
+            <sys_created_on>2020-05-01 22:02:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51c897c5db20501054892957489619ca</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>arnav</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:04:59</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cause</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Education</label>
+            <language>en</language>
+            <name>x_snc_econow_philanthrophy</name>
+            <sequence>2</sequence>
+            <sys_created_by>arnav</sys_created_by>
+            <sys_created_on>2020-05-01 22:02:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cd897c5db20501054892957489619cd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>arnav</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:05:07</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cause</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Environment</label>
+            <language>en</language>
+            <name>x_snc_econow_philanthrophy</name>
+            <sequence>3</sequence>
+            <sys_created_by>arnav</sys_created_by>
+            <sys_created_on>2020-05-01 22:05:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0699fc5db205010548929574896199f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>arnav</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:05:47</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cause</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Health and Wellness</label>
+            <language>en</language>
+            <name>x_snc_econow_philanthrophy</name>
+            <sequence>4</sequence>
+            <sys_created_by>arnav</sys_created_by>
+            <sys_created_on>2020-05-01 22:05:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27899fc5db20501054892957489619ef</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>arnav</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:05:52</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cause</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior</label>
+            <language>en</language>
+            <name>x_snc_econow_philanthrophy</name>
+            <sequence>5</sequence>
+            <sys_created_by>arnav</sys_created_by>
+            <sys_created_on>2020-05-01 22:05:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70999fc5db20501054892957489619f1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>arnav</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:05:57</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cause</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Youth</label>
+            <language>en</language>
+            <name>x_snc_econow_philanthrophy</name>
+            <sequence>6</sequence>
+            <sys_created_by>arnav</sys_created_by>
+            <sys_created_on>2020-05-01 22:05:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e995309db2050105489295748961977</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>arnav</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:06:01</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>cause</element>
+            <name>x_snc_econow_philanthrophy</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>arnav</sys_created_by>
+            <sys_created_on>2020-05-01 22:02:12</sys_created_on>
+            <sys_id>1cd81bc5db2050105489295748961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cause</sys_name>
+            <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+            <sys_update_name>sys_choice_x_snc_econow_philanthrophy_cause</sys_update_name>
+            <sys_updated_by>arnav</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:02:12</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

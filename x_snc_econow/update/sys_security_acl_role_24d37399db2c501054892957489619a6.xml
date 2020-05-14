@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 18:38:40</sys_created_on>
+        <sys_id>24d37399db2c501054892957489619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_econow_participation_level.x_snc_econow.participation_level_user</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_security_acl display_value="x_snc_econow_participation_level">18d37399db2c501054892957489619a2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_24d37399db2c501054892957489619a6</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:38:40</sys_updated_on>
+        <sys_user_role display_value="x_snc_econow.participation_level_user" name="x_snc_econow.participation_level_user">1cd3ff59db2c501054892957489619b2</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

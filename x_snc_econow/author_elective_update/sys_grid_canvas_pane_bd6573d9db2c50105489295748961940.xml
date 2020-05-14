@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA Philanthropy initiat - New Tab">39257f99db2c501054892957489619c2</grid_canvas>
+        <height>14</height>
+        <portal_widget display_value="Created 2020-05-02 11:45:35">fd6573d9db2c5010548929574896193d</portal_widget>
+        <posx>0</posx>
+        <posy>10</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 18:45:35</sys_created_on>
+        <sys_id>bd6573d9db2c50105489295748961940</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>39257f99db2c501054892957489619c2</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_bd6573d9db2c50105489295748961940</sys_update_name>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:59:59</sys_updated_on>
+        <width>4</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EcoNow">1cc25741db2050105489295748961900</application>
+        <file_path/>
+        <instance_id>03a77fbd4f8092407b9b220f0310c739</instance_id>
+        <instance_name>hackathon135</instance_name>
+        <name>sys_grid_canvas_pane_bd6573d9db2c50105489295748961940</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Philanthropy initiat - New Tab">39257f99db2c501054892957489619c2</grid_canvas><height>14</height><portal_widget display_value="Created 2020-05-02 11:45:35">fd6573d9db2c5010548929574896193d</portal_widget><posx>0</posx><posy>10</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>carlos</sys_created_by><sys_created_on>2020-05-02 18:45:35</sys_created_on><sys_id>bd6573d9db2c50105489295748961940</sys_id><sys_mod_count>7</sys_mod_count><sys_name>39257f99db2c501054892957489619c2</sys_name><sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package><sys_policy/><sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope><sys_update_name>sys_grid_canvas_pane_bd6573d9db2c50105489295748961940</sys_update_name><sys_updated_by>carlos</sys_updated_by><sys_updated_on>2020-05-02 18:59:59</sys_updated_on><width>4</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>1289559229</payload_hash>
+        <record_name>39257f99db2c501054892957489619c2</record_name>
+        <reverted_from/>
+        <source>50875785db2050105489295748961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 18:59:59</sys_created_on>
+        <sys_id>f4b8339ddb2c5010548929574896197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d6c271e90000001</sys_recorded_at>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:59:59</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>70b8339d852c50101eec62a867461b7e</update_guid>
+        <update_guid_history>70b8339d852c50101eec62a867461b7e:1289559229,b0b5f7d9982c5010b92231b04b525f02:-486842940,c0a577d9012c5010836dd6786fc7a515:917502854,e38577d97d2c5010235d6c5c5f3e8f50:1658574880,ea8537d9d92c50109eaf9694b9feac8c:1017554335,e98537d9ae2c50109059c79d5998949a:523228591,cf7573d9812c50100675e545238b8f4f:-1079970994,f96573d9022c50102dd729d4034e4842:523228591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 19:00:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>3734265d74c64b5caa3cb002ff965f04</sys_id>
+        <sys_metadata>bd6573d9db2c50105489295748961940</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>39257f99db2c501054892957489619c2</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_scope_delete display_value="">1c313f6434b24ce08451bdaa2f346bd1</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_bd6573d9db2c50105489295748961940</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_bd6573d9db2c50105489295748961940">f4b8339ddb2c5010548929574896197e</sys_update_version>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 19:00:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

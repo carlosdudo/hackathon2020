@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Deregister">3594c759dba8501054892957489619e4</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Deregister</label>
+        <location>trailing_swipe</location>
+        <name>Deregister</name>
+        <order>30</order>
+        <parent>12470a51db28501054892957489619aa</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 15:15:19</sys_created_on>
+        <sys_id>39450399dba8501054892957489619d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Deregister</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_sg_button_instance_39450399dba8501054892957489619d2</sys_update_name>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 15:15:26</sys_updated_on>
+        <table>x_snc_econow_philanthrophy</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=39450399dba8501054892957489619d2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EcoNow">1cc25741db2050105489295748961900</application>
+        <file_path/>
+        <instance_id>03a77fbd4f8092407b9b220f0310c739</instance_id>
+        <instance_name>hackathon135</instance_name>
+        <name>sys_sg_button_instance_39450399dba8501054892957489619d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Deregister">3594c759dba8501054892957489619e4</button><color_theme>primary</color_theme><description/><field_name/><icon/><label>Deregister</label><location>trailing_swipe</location><name>Deregister</name><order>30</order><parent>12470a51db28501054892957489619aa</parent><parent_table>sys_sg_master_item</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>carlos</sys_created_by><sys_created_on>2020-05-02 15:15:19</sys_created_on><sys_id>39450399dba8501054892957489619d2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Deregister</sys_name><sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package><sys_policy/><sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope><sys_update_name>sys_sg_button_instance_39450399dba8501054892957489619d2</sys_update_name><sys_updated_by>carlos</sys_updated_by><sys_updated_on>2020-05-02 15:15:26</sys_updated_on><table>x_snc_econow_philanthrophy</table></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=39450399dba8501054892957489619d2"/></record_update>]]></payload>
+        <payload_hash>-271478440</payload_hash>
+        <record_name>Deregister</record_name>
+        <reverted_from/>
+        <source>50875785db2050105489295748961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 15:15:26</sys_created_on>
+        <sys_id>9b454399dba850105489295748961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d5f4dc1c0000001</sys_recorded_at>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 15:15:26</sys_updated_on>
+        <type>Button instance</type>
+        <update_guid>17454399c4a85010ed4ea991c5992740</update_guid>
+        <update_guid_history>17454399c4a85010ed4ea991c5992740:-271478440,7545039901a8501096299b4c1193bad4:-49566759</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 17:09:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>9e07bbc7bfc04e4c889f09711ad63a90</sys_id>
+        <sys_metadata>39450399dba8501054892957489619d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deregister</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_scope_delete display_value="">1c313f6434b24ce08451bdaa2f346bd1</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_39450399dba8501054892957489619d2</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_39450399dba8501054892957489619d2">9b454399dba850105489295748961940</sys_update_version>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-02 17:09:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

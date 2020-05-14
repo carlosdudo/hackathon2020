@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="Philanthropy Topics">640c782ddbec5010548929574896194e</category>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "goals": {
+    "64c401e9bdb94cbfbd5262e67199cdfc": {
+      "id": "64c401e9bdb94cbfbd5262e67199cdfc",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "745027bac2c641738fd42df16e34bb48": {
+          "id": "745027bac2c641738fd42df16e34bb48",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "e0576b0aacd747399c1ae4e59df8baba": {
+          "id": "e0576b0aacd747399c1ae4e59df8baba",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": "Deregistration is complete. Look forward to your participation in another initiative.",
+            "mode": "simple"
+          }
+        },
+        "18fd8378f39c41d0997d1819f71be7d2": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Select Phil",
+          "prompt": {
+            "value": "Below are the initiatives you are registered for.",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "ok",
+            "mode": "simple"
+          },
+          "applicability": {
+            "mode": "script",
+            "value": ""
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "5566ff57fdca43bbad268e0d8ee225da",
+          "id": "18fd8378f39c41d0997d1819f71be7d2",
+          "mode": "external",
+          "script": "(function execute() {\n    /* Code your script logic here. For example, you might want to call an external web service\n       to find the beet local Italian restaurants.  Call a Restaurants Web Service then use the results\n       to populate an options array.\n       \n        var options = [];    \n        options.push({ 'value': 'best_italian_1', 'label': gs.getMessage('Best Italian Restaurant Ever') });\n        options.push({ 'value': 'best_italian_2', 'label': gs.getMessage('Even Better Italian Restaurant') });\n        return options;\n    */\n\n   var options = new PhilUtil().buildderegisterOption(vaInputs.user);\n    return options; \n})()\n",
+          "noRecordsResponseMsg": {
+            "value": "No open opportunities yet. Please come back later.",
+            "mode": "simple"
+          },
+          "condition": {
+            "value": "(function execute() {\n    /* Code your script logic here. For example, you might want to call an external web service\n       to find the beet local Italian restaurants.  Call a Restaurants Web Service then use the results\n       to populate an options array.\n       \n        var options = [];    \n        options.push({ 'value': 'best_italian_1', 'label': gs.getMessage('Best Italian Restaurant Ever') });\n        options.push({ 'value': 'best_italian_2', 'label': gs.getMessage('Even Better Italian Restaurant') });\n        return options;\n    */\n\n   var options = new PhilUtil().buildderegisterOption(vaInputs.user);\n    return options; \n})()\n",
+            "mode": "external_script"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "21036f2024504d5080c961b0d679b247": {
+          "id": "21036f2024504d5080c961b0d679b247",
+          "stepType": "LookupRecord",
+          "name": "Look Up phil in the table",
+          "condition": {
+            "mode": "glide_query",
+            "value": "sys_id={{vaInputs.select_phil}}"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "e7a14715b60a441b84c9bf43ff8c4356"
+        },
+        "a2b6b821fc1946f68c5e5862cac83bba": {
+          "id": "a2b6b821fc1946f68c5e5862cac83bba",
+          "name": "Update Phil via script",
+          "script": "(function execute() {\n    /* Code your scripted action here. For example, you might update a \n       record based on conditional logic:\n    \n        if (vaVars.my_flag == 'say hello') {\n            gs.info('hi there');\n        } else {\n            gs.info('bye now');\n        }\n    */\n    var currentUser = gs.getUser();\n    var watch_list;\n    var gr = new GlideRecord('x_snc_econow_philanthrophy');\n    gr.addQuery('sys_id',vaInputs.look_up_phil_in_the_table.getValue());\n    gr.query();\n    if(gr.next())\n    {\n       // gs.info('16 hi there-'+vaInputs.look_up_phil_in_the_table.getValue() + '   '+ vaInputs.user.getDisplayValue());\n        watch_list = gr.watch_list.toString().split(\",\");\n       // watch_list.push(gs.getUserID());\n       var index = watch_list.indexOf(gs.getUserID());\n       watch_list.splice(index, 32);\n        gr.watch_list = watch_list.join(\",\").toString();\n        \n        gr.update();\n    }\n\n   // var watch_list = current.watch_list.toString().split(\",\");\n    //     if (watch_list.toString().indexOf(currentUser.getDisplayName()) == -1) {\n    //         watch_list.push(currentUser.getDisplayName());\n    //         current.watch_list = watch_list.join(\",\").toString();\n    //     }\n\n//\t\tvar index = watch_list.indexOf(gs.getUserID()); // &lt;-- Not supported in &lt;IE9\n//    if (index !== -1) {\n       \n    \n    //phil.update();\n})()    \n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "8a5d54adcba548489d38fab0e3d6c63f",
+          "edgeType": "Edge",
+          "source": "21036f2024504d5080c961b0d679b247",
+          "target": "a2b6b821fc1946f68c5e5862cac83bba",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c3c61f3dcc3b44c391c4920ca7fe9f4a",
+          "edgeType": "Edge",
+          "source": "745027bac2c641738fd42df16e34bb48",
+          "target": "18fd8378f39c41d0997d1819f71be7d2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5f79bdb845b849769111c1acc8ac6c78",
+          "edgeType": "Edge",
+          "source": "18fd8378f39c41d0997d1819f71be7d2",
+          "target": "21036f2024504d5080c961b0d679b247",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "642db439584342bda9b33611739a88a1",
+          "edgeType": "Edge",
+          "source": "a2b6b821fc1946f68c5e5862cac83bba",
+          "target": "e0576b0aacd747399c1ae4e59df8baba",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "graph_api_version": "1.0.16",
+  "variables": {
+    "3fc28c03702e424faa198b0f9c4d767e": {
+      "category": "vaInputs",
+      "id": "3fc28c03702e424faa198b0f9c4d767e",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "5566ff57fdca43bbad268e0d8ee225da": {
+      "id": "5566ff57fdca43bbad268e0d8ee225da",
+      "name": "select_phil",
+      "label": "Select Phil",
+      "varType": "reference",
+      "table": "",
+      "category": "vaInputs"
+    },
+    "e7a14715b60a441b84c9bf43ff8c4356": {
+      "id": "e7a14715b60a441b84c9bf43ff8c4356",
+      "name": "look_up_phil_in_the_table",
+      "label": "Look Up Phil In The Table",
+      "varType": "reference",
+      "table": "x_snc_econow_philanthrophy",
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>remove me philanthropy,deregister opportunity,remove me from initiative,deregister opportunity</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Deregister for opportunity</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-03 16:24:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a39e5c79db689010548929574896197d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Deregister for opportunity</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_cb_topic_a39e5c79db689010548929574896197d</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:33:44</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=a39e5c79db689010548929574896197d"/>
+</record_update>

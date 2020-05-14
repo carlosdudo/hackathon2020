@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-05-14 22:27:25">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_3_across_only">4127db33d7111100f2d224837e610336</layout>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 19:12:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>975b3711db6c50105489295748961950</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ecoNow_Overview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_portal_page_975b3711db6c50105489295748961950</sys_update_name>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-03 17:06:56</sys_updated_on>
+        <title>ecoNow_Overview</title>
+        <user/>
+        <view>ecoNow_overview</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="ecoNow_Overview">975b3711db6c50105489295748961950</page>
+                <summary/>
+                <sys_created_by>carlos</sys_created_by>
+                <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                <sys_id>3b2cb351db6c50105489295748961928</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>carlos</sys_updated_by>
+                <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">3b2cb351db6c50105489295748961928</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>332cb351db6c50105489295748961929</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">3b2cb351db6c50105489295748961928</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>332cb351db6c5010548929574896192a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>Philanthropy initiatives planned for this month</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">3b2cb351db6c50105489295748961928</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>372cb351db6c50105489295748961929</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">3b2cb351db6c50105489295748961928</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>3b2cb351db6c50105489295748961929</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">3b2cb351db6c50105489295748961928</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>3f2cb351db6c50105489295748961929</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>horizontal_bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">3b2cb351db6c50105489295748961928</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>b72cb351db6c5010548929574896192a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>975b3711db6c50105489295748961950</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">3b2cb351db6c50105489295748961928</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>bb2cb351db6c50105489295748961928</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>87e7375ddb2c50105489295748961994</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="ecoNow_Overview">975b3711db6c50105489295748961950</page>
+                <summary/>
+                <sys_created_by>carlos</sys_created_by>
+                <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                <sys_id>772cb351db6c50105489295748961926</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>carlos</sys_updated_by>
+                <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">772cb351db6c50105489295748961926</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>732cb351db6c50105489295748961927</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">772cb351db6c50105489295748961926</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>772cb351db6c50105489295748961927</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">772cb351db6c50105489295748961926</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>7b2cb351db6c50105489295748961927</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>horizontal_bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">772cb351db6c50105489295748961926</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>7f2cb351db6c50105489295748961926</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">772cb351db6c50105489295748961926</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>7f2cb351db6c50105489295748961927</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>Philanthropy initiatives completed last month</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">772cb351db6c50105489295748961926</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>f32cb351db6c50105489295748961928</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>975b3711db6c50105489295748961950</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">772cb351db6c50105489295748961926</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>f72cb351db6c50105489295748961926</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>2268fb5ddb2c50105489295748961968</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="ecoNow_Overview">975b3711db6c50105489295748961950</page>
+                <summary/>
+                <sys_created_by>carlos</sys_created_by>
+                <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                <sys_id>fb2cb351db6c5010548929574896192a</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>carlos</sys_updated_by>
+                <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">fb2cb351db6c5010548929574896192a</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>7b2cb351db6c5010548929574896192c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>975b3711db6c50105489295748961950</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">fb2cb351db6c5010548929574896192a</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>7f2cb351db6c5010548929574896192a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>e148bb5ddb2c50105489295748961924</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">fb2cb351db6c5010548929574896192a</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>f32cb351db6c5010548929574896192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">fb2cb351db6c5010548929574896192a</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>f32cb351db6c5010548929574896192c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>Philanthropy initiatives planned for next month</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">fb2cb351db6c5010548929574896192a</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>f72cb351db6c5010548929574896192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">fb2cb351db6c5010548929574896192a</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>fb2cb351db6c5010548929574896192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-05-02 12:15:13">fb2cb351db6c5010548929574896192a</portal_section>
+                        <sys_created_by>carlos</sys_created_by>
+                        <sys_created_on>2020-05-02 19:15:13</sys_created_on>
+                        <sys_id>ff2cb351db6c5010548929574896192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>carlos</sys_updated_by>
+                        <sys_updated_on>2020-05-02 19:15:13</sys_updated_on>
+                        <value>horizontal_bar</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

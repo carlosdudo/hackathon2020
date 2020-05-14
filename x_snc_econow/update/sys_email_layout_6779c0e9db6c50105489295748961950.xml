@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description/>
+        <layout><![CDATA[<p style="text-align: left;"><span style="color: #ffffff; font-size: 18pt; font-family: 'arial black', 'avant garde';"><strong>Philanthropy - Together we can make a difference!</strong></span></p>
+<p style="text-align: left;"><strong></strong></p>
+<p style="text-align: left;"><strong>${notification:body}</strong></p>
+<p style="text-align: left;"><strong></strong></p>
+<p style="text-align: left;"><strong>Reach out to aaa@aaa.com for any questions</strong><br /><strong></strong></p>
+<style>
+body {
+  background-image: url('https://hackathon135.service-now.com/phil.jpg');<span id="CmCaReT"></span>
+  background-attachment: fixed;
+  background-size: cover;
+}
+<span id="CmCaReT"></span></style>]]></layout>
+        <name>Phil Layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 20:16:55</sys_created_on>
+        <sys_id>6779c0e9db6c50105489295748961950</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Phil Layout</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_email_layout_6779c0e9db6c50105489295748961950</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:28:26</sys_updated_on>
+    </sys_email_layout>
+</record_update>

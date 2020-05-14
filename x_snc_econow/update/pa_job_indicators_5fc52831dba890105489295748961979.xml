@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <collect>1</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>New EcoNow opportunities - New EcoNow opportunities</display>
+        <indicator display_value="New EcoNow opportunities">9c9424fddb68901054892957489619bf</indicator>
+        <job display_value="New EcoNow opportunities">4a65e031dba890105489295748961957</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-03 16:55:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5fc52831dba890105489295748961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New EcoNow opportunities.New EcoNow opportunities</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>pa_job_indicators_5fc52831dba890105489295748961979</sys_update_name>
+        <sys_updated_by>carlos</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:55:31</sys_updated_on>
+    </pa_job_indicators>
+</record_update>

@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Register end user</description>
+        <internal_name>register</internal_name>
+        <label_cache>[{"name":"Updated_1.current.sys_updated_by","label":"Trigger➛Philanthrophy Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"x_snc_econow_philanthrophy","column_name":"sys_updated_by"},{"name":".changed_fields.FDChangeDetails.current_value","label":"Trigger➛Changed Fields➛FDChangeDetails➛Current Value","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":".changed_fields.FDChangeDetails.previous_value","label":"Trigger➛Changed Fields➛FDChangeDetails➛Previous Value","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"Updated_1.changed_fields","label":"Trigger➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"d0b82e62-c992-4ae1-b75d-4f2bd43e355f.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d0b82e62-c992-4ae1-b75d-4f2bd43e355f.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Philanthrophy Record","reference":"x_snc_econow_philanthrophy","reference_display":"Philanthrophy","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Register</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 03:42:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8ca66cd9dbe0501054892957489619ab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Register</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_hub_flow_8ca66cd9dbe0501054892957489619ab</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=8ca66cd9dbe0501054892957489619ab"/>
+    <sys_variable_value action="DELETE" query="document_key=8ca66cd9dbe0501054892957489619ab"/>
+    <sys_hub_flow_component action="DELETE" query="flow=8ca66cd9dbe0501054892957489619ab^sys_idNOT INa9dba0dddbe05010548929574896196e,d21c64dddbe050105489295748961958"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">6ddba0dddbe05010548929574896196d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Register">8ca66cd9dbe0501054892957489619ab</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>a9dba0dddbe05010548929574896196e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:04</sys_updated_on>
+        <ui_id>08f55a20-1fcd-425b-8cff-f43c65bed71c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=a9dba0dddbe05010548929574896196e"/>
+    <sys_element_mapping action="DELETE" query="id=a9dba0dddbe05010548929574896196e"/>
+    <sys_element_mapping action="DELETE">
+        <field>condition</field>
+        <id>a9dba0dddbe05010548929574896196e</id>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:56</sys_created_on>
+        <sys_id>61dba0dddbe050105489295748961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:56</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{fd_transform:66fa7ab6-cece-4d5f-a0fa-42d645e7c035}}={{Updated_1.current.sys_updated_by}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Register">8ca66cd9dbe0501054892957489619ab</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>d21c64dddbe050105489295748961958</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <ui_id>d0b82e62-c992-4ae1-b75d-4f2bd43e355f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d21c64dddbe050105489295748961958"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d21c64dddbe050105489295748961958</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>1a1c64dddbe05010548929574896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <value>work_notes=hi</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d21c64dddbe050105489295748961958</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>da1c64dddbe05010548929574896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <value>x_snc_econow_philanthrophy</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d21c64dddbe050105489295748961958"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>d21c64dddbe050105489295748961958</id>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>d21c64dddbe05010548929574896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>d21c64dddbe050105489295748961958</id>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>121c64dddbe05010548929574896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>d21c64dddbe050105489295748961958</id>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>961c64dddbe05010548929574896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="DELETE" query="flow=8ca66cd9dbe0501054892957489619ab^sys_idNOT INeddba0dddbe05010548929574896196a"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Register">8ca66cd9dbe0501054892957489619ab</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>eddba0dddbe05010548929574896196a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:04</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=eddba0dddbe05010548929574896196a"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>eddba0dddbe05010548929574896196a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>2ddba0dddbe05010548929574896196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:55</sys_updated_on>
+        <value>x_snc_econow_philanthrophy</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>eddba0dddbe05010548929574896196a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>69dba0dddbe05010548929574896196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:55</sys_updated_on>
+        <value>interactive</value>
+        <variable display_value="">48395df3c7002300f4eba1425a976372</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>eddba0dddbe05010548929574896196a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>a1dba0dddbe05010548929574896196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:55</sys_updated_on>
+        <value>watch_listVALCHANGES</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=8ca66cd9dbe0501054892957489619ab^sys_idNOT INc4a66cd9dbe0501054892957489619af"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>8ca66cd9dbe0501054892957489619ab</id>
+        <name>Register</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 03:42:09</sys_created_on>
+        <sys_id>c4a66cd9dbe0501054892957489619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 03:42:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="DELETE" query="model=8ca66cd9dbe0501054892957489619ab^sys_idNOT IN1ddba0dddbe050105489295748961948,59dba0dddbe050105489295748961951,d9dba0dddbe050105489295748961963"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Register">8ca66cd9dbe0501054892957489619ab</model>
+        <model_id>8ca66cd9dbe0501054892957489619ab</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>1ddba0dddbe050105489295748961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDd21ca0ddafe05010bd4b745b8f52eef7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Register">8ca66cd9dbe0501054892957489619ab</model>
+        <model_id>8ca66cd9dbe0501054892957489619ab</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>59dba0dddbe050105489295748961951</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Register">8ca66cd9dbe0501054892957489619ab</model>
+        <model_id>8ca66cd9dbe0501054892957489619ab</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>d9dba0dddbe050105489295748961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="DELETE" query="flow=8ca66cd9dbe0501054892957489619ab^sys_idNOT INd21c64dddbe050105489295748961958"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Register">8ca66cd9dbe0501054892957489619ab</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>d21c64dddbe050105489295748961958</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <ui_id>d0b82e62-c992-4ae1-b75d-4f2bd43e355f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d21c64dddbe050105489295748961958"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d21c64dddbe050105489295748961958</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>1a1c64dddbe05010548929574896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <value>work_notes=hi</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d21c64dddbe050105489295748961958</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>da1c64dddbe05010548929574896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <value>x_snc_econow_philanthrophy</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d21c64dddbe050105489295748961958"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>d21c64dddbe050105489295748961958</id>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>d21c64dddbe05010548929574896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>d21c64dddbe050105489295748961958</id>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>121c64dddbe05010548929574896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>d21c64dddbe050105489295748961958</id>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>961c64dddbe05010548929574896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=d21c64dddbe050105489295748961958^sys_idNOT IN121c64dddbe05010548929574896195a"/>
+    <sys_hub_input_scripts action="DELETE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>d21c64dddbe050105489295748961958</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"work_notes":{"scriptActive":false,"savedValue":""}}</script>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>121c64dddbe05010548929574896195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="DELETE" query="flow=8ca66cd9dbe0501054892957489619ab^sys_idNOT INa9dba0dddbe05010548929574896196e"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">6ddba0dddbe05010548929574896196d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Register">8ca66cd9dbe0501054892957489619ab</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>a9dba0dddbe05010548929574896196e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:04</sys_updated_on>
+        <ui_id>08f55a20-1fcd-425b-8cff-f43c65bed71c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=a9dba0dddbe05010548929574896196e"/>
+    <sys_element_mapping action="DELETE" query="id=a9dba0dddbe05010548929574896196e"/>
+    <sys_element_mapping action="DELETE">
+        <field>condition</field>
+        <id>a9dba0dddbe05010548929574896196e</id>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:56</sys_created_on>
+        <sys_id>61dba0dddbe050105489295748961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:56</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{fd_transform:66fa7ab6-cece-4d5f-a0fa-42d645e7c035}}={{Updated_1.current.sys_updated_by}}</value>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=8ca66cd9dbe0501054892957489619ab^sys_idNOT IN2ddba0dddbe050105489295748961975,e1dba0dddbe050105489295748961975,eddba0dddbe050105489295748961975"/>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>8ca66cd9dbe0501054892957489619ab</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>66fa7ab6-cece-4d5f-a0fa-42d645e7c035</source_ui_id>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:56</sys_created_on>
+        <sys_id>2ddba0dddbe050105489295748961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:56</sys_updated_on>
+        <transform_compositions>[{"id":"d57a5377c72333003884f80bf4c260f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"separator","label":"Separator","order":0,"attributes":{},"value":",","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="split">2f3a1377c72333003884f80bf4c26038</transform_definition_id>
+        <ui_id>38ded8a9-beaa-460d-988f-e33008fabd8e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>8ca66cd9dbe0501054892957489619ab</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{.changed_fields.FDChangeDetails.current_value}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:56</sys_created_on>
+        <sys_id>e1dba0dddbe050105489295748961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>66fa7ab6-cece-4d5f-a0fa-42d645e7c035</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>8ca66cd9dbe0501054892957489619ab</attached_to>
+        <extra_info/>
+        <order>2</order>
+        <prescription/>
+        <source_ui_id>66fa7ab6-cece-4d5f-a0fa-42d645e7c035</source_ui_id>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:56</sys_created_on>
+        <sys_id>eddba0dddbe050105489295748961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:56</sys_updated_on>
+        <transform_compositions>[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="nth_item">e2347de8c7333300dbf8772bf4c260c9</transform_definition_id>
+        <ui_id>6a1a144b-149d-42f4-ac6e-5d45cfc3c682</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab^sys_idNOT IN15dba0dddbe050105489295748961962,1ddba0dddbe05010548929574896194f,a9dba0dddbe050105489295748961967"/>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>15dba0dddbe050105489295748961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>1ddba0dddbe05010548929574896194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:55</sys_created_on>
+        <sys_id>a9dba0dddbe050105489295748961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EcoNow">1cc25741db2050105489295748961900</application>
+        <file_path/>
+        <instance_id>03a77fbd4f8092407b9b220f0310c739</instance_id>
+        <instance_name>hackathon135</instance_name>
+        <name>sys_hub_flow_8ca66cd9dbe0501054892957489619ab</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Register end user&lt;/description&gt;&lt;internal_name&gt;register&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Updated_1.current.sys_updated_by","label":"Trigger➛Philanthrophy Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"x_snc_econow_philanthrophy","column_name":"sys_updated_by"},{"name":".changed_fields.FDChangeDetails.current_value","label":"Trigger➛Changed Fields➛FDChangeDetails➛Current Value","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":".changed_fields.FDChangeDetails.previous_value","label":"Trigger➛Changed Fields➛FDChangeDetails➛Previous Value","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"Updated_1.changed_fields","label":"Trigger➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"d0b82e62-c992-4ae1-b75d-4f2bd43e355f.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d0b82e62-c992-4ae1-b75d-4f2bd43e355f.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Philanthrophy Record","reference":"x_snc_econow_philanthrophy","reference_display":"Philanthrophy","type":"reference","base_type":"reference","attributes":{}}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Register&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 03:42:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;8ca66cd9dbe0501054892957489619ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Register&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="EcoNow" source="x_snc_econow"&gt;1cc25741db2050105489295748961900&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_8ca66cd9dbe0501054892957489619ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8ca66cd9dbe0501054892957489619ab"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=8ca66cd9dbe0501054892957489619ab"/&gt;&lt;sys_hub_flow_component action="delete_multiple" query="flow=8ca66cd9dbe0501054892957489619ab^sys_idNOT INa9dba0dddbe05010548929574896196e,d21c64dddbe050105489295748961958"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;6ddba0dddbe05010548929574896196d&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Register"&gt;8ca66cd9dbe0501054892957489619ab&lt;/flow&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;a9dba0dddbe05010548929574896196e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:04&lt;/sys_updated_on&gt;&lt;ui_id&gt;08f55a20-1fcd-425b-8cff-f43c65bed71c&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=a9dba0dddbe05010548929574896196e"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=a9dba0dddbe05010548929574896196e"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;condition&lt;/field&gt;&lt;id&gt;a9dba0dddbe05010548929574896196e&lt;/id&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:56&lt;/sys_created_on&gt;&lt;sys_id&gt;61dba0dddbe050105489295748961972&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:56&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;&lt;value&gt;{{fd_transform:66fa7ab6-cece-4d5f-a0fa-42d645e7c035}}={{Updated_1.current.sys_updated_by}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Register"&gt;8ca66cd9dbe0501054892957489619ab&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;d21c64dddbe050105489295748961958&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;ui_id&gt;d0b82e62-c992-4ae1-b75d-4f2bd43e355f&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d21c64dddbe050105489295748961958"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;d21c64dddbe050105489295748961958&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;1a1c64dddbe05010548929574896195b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;value&gt;work_notes=hi&lt;/value&gt;&lt;variable display_value=""&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;d21c64dddbe050105489295748961958&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;da1c64dddbe05010548929574896195b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_econow_philanthrophy&lt;/value&gt;&lt;variable display_value=""&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=d21c64dddbe050105489295748961958"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;d21c64dddbe050105489295748961958&lt;/id&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;d21c64dddbe05010548929574896195b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{Updated_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;d21c64dddbe050105489295748961958&lt;/id&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;121c64dddbe05010548929574896195b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;d21c64dddbe050105489295748961958&lt;/id&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;961c64dddbe05010548929574896195b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=8ca66cd9dbe0501054892957489619ab^sys_idNOT INeddba0dddbe05010548929574896196a"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Register"&gt;8ca66cd9dbe0501054892957489619ab&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_class_name&gt;sys_hub_trigger_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;eddba0dddbe05010548929574896196a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:04&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=eddba0dddbe05010548929574896196a"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;eddba0dddbe05010548929574896196a&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;2ddba0dddbe05010548929574896196c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:55&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_econow_philanthrophy&lt;/value&gt;&lt;variable display_value=""&gt;1dda12e0c31322002841b63b12d3aea8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;eddba0dddbe05010548929574896196a&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;69dba0dddbe05010548929574896196c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:55&lt;/sys_updated_on&gt;&lt;value&gt;interactive&lt;/value&gt;&lt;variable display_value=""&gt;48395df3c7002300f4eba1425a976372&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;eddba0dddbe05010548929574896196a&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;a1dba0dddbe05010548929574896196c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:55&lt;/sys_updated_on&gt;&lt;value&gt;watch_listVALCHANGES&lt;/value&gt;&lt;variable display_value=""&gt;bb9adea0c31322002841b63b12d3ae67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=8ca66cd9dbe0501054892957489619ab^sys_idNOT INc4a66cd9dbe0501054892957489619af"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;8ca66cd9dbe0501054892957489619ab&lt;/id&gt;&lt;name&gt;Register&lt;/name&gt;&lt;sys_class_name&gt;sys_flow_cat_variable_model&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 03:42:09&lt;/sys_created_on&gt;&lt;sys_id&gt;c4a66cd9dbe0501054892957489619af&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 03:42:09&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=8ca66cd9dbe0501054892957489619ab^sys_idNOT IN1ddba0dddbe050105489295748961948,59dba0dddbe050105489295748961951,d9dba0dddbe050105489295748961963"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Register"&gt;8ca66cd9dbe0501054892957489619ab&lt;/model&gt;&lt;model_id&gt;8ca66cd9dbe0501054892957489619ab&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;1ddba0dddbe050105489295748961948&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:55&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDd21ca0ddafe05010bd4b745b8f52eef7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Register"&gt;8ca66cd9dbe0501054892957489619ab&lt;/model&gt;&lt;model_id&gt;8ca66cd9dbe0501054892957489619ab&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;59dba0dddbe050105489295748961951&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:04&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Register"&gt;8ca66cd9dbe0501054892957489619ab&lt;/model&gt;&lt;model_id&gt;8ca66cd9dbe0501054892957489619ab&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;d9dba0dddbe050105489295748961963&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:55&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=8ca66cd9dbe0501054892957489619ab^sys_idNOT INd21c64dddbe050105489295748961958"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Register"&gt;8ca66cd9dbe0501054892957489619ab&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;d21c64dddbe050105489295748961958&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;ui_id&gt;d0b82e62-c992-4ae1-b75d-4f2bd43e355f&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d21c64dddbe050105489295748961958"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;d21c64dddbe050105489295748961958&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;1a1c64dddbe05010548929574896195b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;value&gt;work_notes=hi&lt;/value&gt;&lt;variable display_value=""&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;d21c64dddbe050105489295748961958&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;da1c64dddbe05010548929574896195b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_econow_philanthrophy&lt;/value&gt;&lt;variable display_value=""&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=d21c64dddbe050105489295748961958"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;d21c64dddbe050105489295748961958&lt;/id&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;d21c64dddbe05010548929574896195b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{Updated_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;d21c64dddbe050105489295748961958&lt;/id&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;121c64dddbe05010548929574896195b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;d21c64dddbe050105489295748961958&lt;/id&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;961c64dddbe05010548929574896195b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=d21c64dddbe050105489295748961958^sys_idNOT IN121c64dddbe05010548929574896195a"/&gt;&lt;sys_hub_input_scripts action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;input_name&gt;values&lt;/input_name&gt;&lt;instance&gt;d21c64dddbe050105489295748961958&lt;/instance&gt;&lt;referenced_table&gt;sys_hub_action_instance&lt;/referenced_table&gt;&lt;script&gt;{"work_notes":{"scriptActive":false,"savedValue":""}}&lt;/script&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:06:05&lt;/sys_created_on&gt;&lt;sys_id&gt;121c64dddbe05010548929574896195a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:05&lt;/sys_updated_on&gt;&lt;/sys_hub_input_scripts&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=8ca66cd9dbe0501054892957489619ab^sys_idNOT INa9dba0dddbe05010548929574896196e"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;6ddba0dddbe05010548929574896196d&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Register"&gt;8ca66cd9dbe0501054892957489619ab&lt;/flow&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;a9dba0dddbe05010548929574896196e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:06:04&lt;/sys_updated_on&gt;&lt;ui_id&gt;08f55a20-1fcd-425b-8cff-f43c65bed71c&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=a9dba0dddbe05010548929574896196e"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=a9dba0dddbe05010548929574896196e"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;condition&lt;/field&gt;&lt;id&gt;a9dba0dddbe05010548929574896196e&lt;/id&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:56&lt;/sys_created_on&gt;&lt;sys_id&gt;61dba0dddbe050105489295748961972&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:56&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;&lt;value&gt;{{fd_transform:66fa7ab6-cece-4d5f-a0fa-42d645e7c035}}={{Updated_1.current.sys_updated_by}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=8ca66cd9dbe0501054892957489619ab^sys_idNOT IN2ddba0dddbe050105489295748961975,e1dba0dddbe050105489295748961975,eddba0dddbe050105489295748961975"/&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;8ca66cd9dbe0501054892957489619ab&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;1&lt;/order&gt;&lt;prescription/&gt;&lt;source_ui_id&gt;66fa7ab6-cece-4d5f-a0fa-42d645e7c035&lt;/source_ui_id&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:56&lt;/sys_created_on&gt;&lt;sys_id&gt;2ddba0dddbe050105489295748961975&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:56&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[{"id":"d57a5377c72333003884f80bf4c260f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"separator","label":"Separator","order":0,"attributes":{},"value":",","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]&lt;/transform_compositions&gt;&lt;transform_definition_id display_value="split"&gt;2f3a1377c72333003884f80bf4c26038&lt;/transform_definition_id&gt;&lt;ui_id&gt;38ded8a9-beaa-460d-988f-e33008fabd8e&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;8ca66cd9dbe0501054892957489619ab&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{.changed_fields.FDChangeDetails.current_value}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:56&lt;/sys_created_on&gt;&lt;sys_id&gt;e1dba0dddbe050105489295748961975&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:56&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;66fa7ab6-cece-4d5f-a0fa-42d645e7c035&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;8ca66cd9dbe0501054892957489619ab&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;2&lt;/order&gt;&lt;prescription/&gt;&lt;source_ui_id&gt;66fa7ab6-cece-4d5f-a0fa-42d645e7c035&lt;/source_ui_id&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:56&lt;/sys_created_on&gt;&lt;sys_id&gt;eddba0dddbe050105489295748961975&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:56&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[{"id":"7b5cf1ecc7333300dbf8772bf4c260bd","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"nth_item","label":"Nth Item","order":0,"attributes":{},"value":"0","type":"integer","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]&lt;/transform_compositions&gt;&lt;transform_definition_id display_value="nth_item"&gt;e2347de8c7333300dbf8772bf4c260c9&lt;/transform_definition_id&gt;&lt;ui_id&gt;6a1a144b-149d-42f4-ac6e-5d45cfc3c682&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab^sys_idNOT IN15dba0dddbe050105489295748961962,1ddba0dddbe05010548929574896194f,a9dba0dddbe050105489295748961967"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;15dba0dddbe050105489295748961962&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EcoNow" source="x_snc_econow"&gt;1cc25741db2050105489295748961900&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:55&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;1ddba0dddbe05010548929574896194f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EcoNow" source="x_snc_econow"&gt;1cc25741db2050105489295748961900&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:55&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8ca66cd9dbe0501054892957489619ab&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;arnav&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-02 04:04:55&lt;/sys_created_on&gt;&lt;sys_id&gt;a9dba0dddbe050105489295748961967&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EcoNow" source="x_snc_econow"&gt;1cc25741db2050105489295748961900&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EcoNow"&gt;1cc25741db2050105489295748961900&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;arnav&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-02 04:04:55&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1588865414</payload_hash>
+        <record_name>Register</record_name>
+        <reverted_from/>
+        <source>50875785db2050105489295748961982</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:05</sys_created_on>
+        <sys_id>621c64dddbe050105489295748961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d3900f4b0000001</sys_recorded_at>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:05</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>ea1c64dd6de050105e361092b6240978</update_guid>
+        <update_guid_history>ea1c64dd6de050105e361092b6240978:-1588865414,e9dba0dd6ee0501077e2ffd307a0b38a:-388491190,cca66cd989e05010ebf83ff2c6dfefb3:878261937</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-02 19:46:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>182fb96215e247209f2e6f4f78a5c900</sys_id>
+        <sys_metadata>8ca66cd9dbe0501054892957489619ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Register</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_scope_delete display_value="">1c313f6434b24ce08451bdaa2f346bd1</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_8ca66cd9dbe0501054892957489619ab</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_8ca66cd9dbe0501054892957489619ab">621c64dddbe050105489295748961979</sys_update_version>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 19:46:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

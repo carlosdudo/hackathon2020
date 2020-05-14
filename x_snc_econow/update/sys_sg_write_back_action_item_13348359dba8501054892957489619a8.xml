@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description>Deregister</description>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    var current = new GlideRecord('x_snc_econow_philanthrophy');
+    current.get(input.sys_id);
+    var currentUser = gs.getUser();
+    var watch_list = current.watch_list.toString().split(",");
+    var index = watch_list.indexOf(gs.getUserID()); // <-- Not supported in <IE9
+    if (index !== -1) {
+        watch_list.splice(index, 32);
+        current.watch_list = watch_list.join(",").toString();
+		gs.addInfoMessage(gs.getMessage('You are deregistered.'));
+    }
+    current.update();
+})(input);]]></execution_script>
+        <name>Deregister</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>carlos</sys_created_by>
+        <sys_created_on>2020-05-02 15:11:50</sys_created_on>
+        <sys_id>13348359dba8501054892957489619a8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Deregister</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_13348359dba8501054892957489619a8</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-02 17:12:46</sys_updated_on>
+        <table>x_snc_econow_philanthrophy</table>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=13348359dba8501054892957489619a8"/>
+</record_update>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="Philanthropy Topics">640c782ddbec5010548929574896194e</category>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "e1e4c1915d3b4f81a5794164304e37d6": {
+      "id": "e1e4c1915d3b4f81a5794164304e37d6",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "220c2784dfc64941b0d64e45b18ac648": {
+          "id": "220c2784dfc64941b0d64e45b18ac648",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "23d828032db24e139a9225a9ae9c2798": {
+          "id": "23d828032db24e139a9225a9ae9c2798",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": "Thanks for submitting a philanthropy opportunity.  The opportunity number is {{vaInputs.create_phil_record.number}}.\n\nOur CSR teams will take a look and reach out if needed.",
+            "mode": "simple"
+          }
+        },
+        "ec026c4ac90a41c9a9032460787a3bac": {
+          "id": "ec026c4ac90a41c9a9032460787a3bac",
+          "stepType": "Prompt",
+          "name": "Short Description",
+          "prompt": {
+            "value": "Please enter a short description for the philanthropy.",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "Great, lets add more details to it",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "bf05672d442849d4916020a90126916e"
+        },
+        "8251d09627bb436088cc59cdca98461f": {
+          "id": "8251d09627bb436088cc59cdca98461f",
+          "stepType": "Prompt",
+          "name": "Description",
+          "prompt": {
+            "value": "Please add a description",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "Ok.",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "98fbe21c1c514ae6b21ec2dd39efd440"
+        },
+        "0c87fe17fef8476cb1e10390a6eb1a15": {
+          "stepType": "ChoicePrompt",
+          "name": "Cause",
+          "prompt": {
+            "value": "What cause it is it for?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "Very cool",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "982c44b3207c484c8ed2f4e93a07edab",
+          "id": "0c87fe17fef8476cb1e10390a6eb1a15",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "51737559c15c4791b156ea34dc69e666": {
+          "id": "51737559c15c4791b156ea34dc69e666",
+          "stepType": "Prompt",
+          "name": "planned start",
+          "prompt": {
+            "value": "When is it scheduled to start?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "Good to know",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "56ae6ebc44ca4de18868a56714e6c456"
+        },
+        "885585f7c88742c0bd70879723f9aeab": {
+          "id": "885585f7c88742c0bd70879723f9aeab",
+          "stepType": "CrudAction",
+          "name": "Create phil record",
+          "template": "short_description={{vaInputs.short_description}}^description={{vaInputs.description}}^planned_start={{vaInputs.planned_start}}^cause={{vaInputs.cause}}^planned_end={{vaInputs.planned_end}}^initiative=2^type=1^u_reference_1={{vaInputs.user}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "ca4e6b50e2da410093c9e54237509641"
+        },
+        "39396dd637c6403db42c7a0ce3a5902e": {
+          "id": "39396dd637c6403db42c7a0ce3a5902e",
+          "stepType": "Prompt",
+          "name": "planned_end",
+          "prompt": {
+            "value": "When is it scheduled to end?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "Good to know",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "6d910225014b410c8366e654abb8e959"
+        }
+      },
+      "edges": [
+        {
+          "id": "07e49f8b785d4e4087ea6eaae21a6539",
+          "edgeType": "Edge",
+          "source": "885585f7c88742c0bd70879723f9aeab",
+          "target": "23d828032db24e139a9225a9ae9c2798",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f15fa32dff9a4f5ea54b14861767411e",
+          "edgeType": "Edge",
+          "source": "220c2784dfc64941b0d64e45b18ac648",
+          "target": "ec026c4ac90a41c9a9032460787a3bac",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e1c14c21d15542fabe40cec8bdb90210",
+          "edgeType": "Edge",
+          "source": "ec026c4ac90a41c9a9032460787a3bac",
+          "target": "8251d09627bb436088cc59cdca98461f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2a5c30ed887b419ea02ccca71f08ef72",
+          "edgeType": "Edge",
+          "source": "8251d09627bb436088cc59cdca98461f",
+          "target": "0c87fe17fef8476cb1e10390a6eb1a15",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "aa864799fced4fccb7638959276bf85e",
+          "edgeType": "Edge",
+          "source": "0c87fe17fef8476cb1e10390a6eb1a15",
+          "target": "51737559c15c4791b156ea34dc69e666",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9174ad6fdf774148bc63e131e54645b8",
+          "edgeType": "Edge",
+          "source": "51737559c15c4791b156ea34dc69e666",
+          "target": "39396dd637c6403db42c7a0ce3a5902e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "684847ccb9da4a91a938d2575a764832",
+          "edgeType": "Edge",
+          "source": "39396dd637c6403db42c7a0ce3a5902e",
+          "target": "885585f7c88742c0bd70879723f9aeab",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "bf05672d442849d4916020a90126916e": {
+      "id": "bf05672d442849d4916020a90126916e",
+      "name": "short_description",
+      "label": "Short Description",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "98fbe21c1c514ae6b21ec2dd39efd440": {
+      "id": "98fbe21c1c514ae6b21ec2dd39efd440",
+      "name": "description",
+      "label": "Description",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "982c44b3207c484c8ed2f4e93a07edab": {
+      "id": "982c44b3207c484c8ed2f4e93a07edab",
+      "name": "cause",
+      "label": "Cause",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Animals",
+          "value": "1"
+        },
+        {
+          "label": "Education",
+          "value": "2",
+          "checked": true
+        },
+        {
+          "label": "Environment",
+          "value": "3",
+          "checked": true
+        },
+        {
+          "label": "Health and Wellness",
+          "value": "4",
+          "checked": true
+        },
+        {
+          "label": "Senior",
+          "value": "5",
+          "checked": true
+        },
+        {
+          "label": "Youth",
+          "value": "6",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "56ae6ebc44ca4de18868a56714e6c456": {
+      "id": "56ae6ebc44ca4de18868a56714e6c456",
+      "name": "planned_start",
+      "label": "Planned Start",
+      "varType": "date_time",
+      "category": "vaInputs",
+      "mode": "date_time"
+    },
+    "ca4e6b50e2da410093c9e54237509641": {
+      "id": "ca4e6b50e2da410093c9e54237509641",
+      "name": "create_phil_record",
+      "label": "Create Phil Record",
+      "varType": "reference",
+      "table": "x_snc_econow_philanthrophy",
+      "inactive": false,
+      "category": "vaInputs"
+    },
+    "6d910225014b410c8366e654abb8e959": {
+      "id": "6d910225014b410c8366e654abb8e959",
+      "name": "planned_end",
+      "label": "Planned_end",
+      "varType": "date_time",
+      "category": "vaInputs",
+      "mode": "date_time"
+    }
+  }
+}</graph>
+        <key_phrases>Submit opportunity,create philanthropy,I want to help my community</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Submit opportunity</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-03 00:54:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ced901a5db2090105489295748961943</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Submit opportunity</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_cb_topic_ced901a5db2090105489295748961943</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-03 17:39:57</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=ced901a5db2090105489295748961943"/>
+</record_update>

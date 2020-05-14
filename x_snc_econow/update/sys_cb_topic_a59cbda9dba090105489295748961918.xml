@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="Philanthropy Topics">640c782ddbec5010548929574896194e</category>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "dc4217c41adf48978b8ed425feb732ae": {
+      "id": "dc4217c41adf48978b8ed425feb732ae",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "5174c4b5d58f474cb697a3969431a27f": {
+          "id": "5174c4b5d58f474cb697a3969431a27f",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "8f71e2e71c3743cc8da218a881ec9086": {
+          "id": "8f71e2e71c3743cc8da218a881ec9086",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": "You are registered. You will receive a notification soon with details.",
+            "mode": "simple"
+          }
+        },
+        "4f55be1cf5834fada129b4101f531c81": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Select Phil",
+          "prompt": {
+            "value": "Select Phil",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "great",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "42fd5124fd474590a54985f4602f2a26",
+          "id": "4f55be1cf5834fada129b4101f531c81",
+          "mode": "external",
+          "script": "(function execute() {\n    /* Code your script logic here. For example, you might want to call an external web service\n       to find the beet local Italian restaurants.  Call a Restaurants Web Service then use the results\n       to populate an options array.\n       \n        var options = [];    \n        options.push({ 'value': 'best_italian_1', 'label': gs.getMessage('Best Italian Restaurant Ever') });\n        options.push({ 'value': 'best_italian_2', 'label': gs.getMessage('Even Better Italian Restaurant') });\n        return options;\n    */\n\n    var options = new PhilUtil().buildregisterOption(vaInputs.user);\n    return options;    \n})()\n",
+          "noRecordsResponseMsg": {
+            "value": "No open opportunities yet. Please come back later.",
+            "mode": "simple"
+          },
+          "condition": {
+            "value": "(function execute() {\n    /* Code your script logic here. For example, you might want to call an external web service\n       to find the beet local Italian restaurants.  Call a Restaurants Web Service then use the results\n       to populate an options array.\n       \n        var options = [];    \n        options.push({ 'value': 'best_italian_1', 'label': gs.getMessage('Best Italian Restaurant Ever') });\n        options.push({ 'value': 'best_italian_2', 'label': gs.getMessage('Even Better Italian Restaurant') });\n        return options;\n    */\n\n    var options = new PhilUtil().buildregisterOption(vaInputs.user);\n    return options;    \n})()\n",
+            "mode": "external_script"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "df01249ecae84035b42c87c44a7e6bfd": {
+          "id": "df01249ecae84035b42c87c44a7e6bfd",
+          "stepType": "LookupRecord",
+          "name": "Look Up phil in the table",
+          "condition": {
+            "mode": "glide_query",
+            "value": "sys_id={{vaInputs.select_phil}}"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "a68ea51fef3549e69906871971d4151e"
+        },
+        "a94971d5650e41de979988b00735e92f": {
+          "id": "a94971d5650e41de979988b00735e92f",
+          "name": "Update Phil via script",
+          "script": "(function execute() {\n    /* Code your scripted action here. For example, you might update a \n       record based on conditional logic:\n    \n        if (vaVars.my_flag == 'say hello') {\n            gs.info('hi there');\n        } else {\n            gs.info('bye now');\n        }\n    */\n    var watch_list;\n    var gr = new GlideRecord('x_snc_econow_philanthrophy');\n    gr.addQuery('sys_id',vaInputs.look_up_phil_in_the_table.getValue());\n    gr.query();\n    if(gr.next())\n    {\n        gs.info('16 hi there-'+vaInputs.look_up_phil_in_the_table.getValue() + '   '+ vaInputs.user.getDisplayValue());\n        watch_list = gr.watch_list.toString().split(\",\");\n        watch_list.push(gs.getUserID());\n        gr.watch_list = watch_list.join(\",\").toString();\n        gr.update();\n    }\n\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "ca486cc3129248da9b63a561652ada3a",
+          "edgeType": "Edge",
+          "source": "df01249ecae84035b42c87c44a7e6bfd",
+          "target": "a94971d5650e41de979988b00735e92f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6b02e2d91b45418588852b0228c9354c",
+          "edgeType": "Edge",
+          "source": "5174c4b5d58f474cb697a3969431a27f",
+          "target": "4f55be1cf5834fada129b4101f531c81",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "160e9148cc024142a08d5f0c06c93b46",
+          "edgeType": "Edge",
+          "source": "4f55be1cf5834fada129b4101f531c81",
+          "target": "df01249ecae84035b42c87c44a7e6bfd",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "702f00aa83f74896b37a7d8c646843ea",
+          "edgeType": "Edge",
+          "source": "a94971d5650e41de979988b00735e92f",
+          "target": "8f71e2e71c3743cc8da218a881ec9086",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "42fd5124fd474590a54985f4602f2a26": {
+      "id": "42fd5124fd474590a54985f4602f2a26",
+      "name": "select_phil",
+      "label": "Select Phil",
+      "varType": "reference",
+      "table": "",
+      "category": "vaInputs"
+    },
+    "a68ea51fef3549e69906871971d4151e": {
+      "id": "a68ea51fef3549e69906871971d4151e",
+      "name": "look_up_phil_in_the_table",
+      "label": "Look Up Phil In The Table",
+      "varType": "reference",
+      "table": "x_snc_econow_philanthrophy",
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Resgister for opportunity,register opportunity,register philanthropy,add me to initiative,add me philanthropy</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Resgister for opportunity</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>arnav</sys_created_by>
+        <sys_created_on>2020-05-03 04:36:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a59cbda9dba090105489295748961918</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Resgister for opportunity</sys_name>
+        <sys_package display_value="EcoNow" source="x_snc_econow">1cc25741db2050105489295748961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EcoNow">1cc25741db2050105489295748961900</sys_scope>
+        <sys_update_name>sys_cb_topic_a59cbda9dba090105489295748961918</sys_update_name>
+        <sys_updated_by>arnav</sys_updated_by>
+        <sys_updated_on>2020-05-03 16:21:02</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=a59cbda9dba090105489295748961918"/>
+</record_update>
